@@ -17,4 +17,3 @@ print(type(tupla3))
 # conclusao podemos conculuir que tuplas sao defenidas por virgula e nao por parenteses
 
 '''
-

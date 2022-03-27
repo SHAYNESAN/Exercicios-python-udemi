@@ -64,9 +64,9 @@ elif 1000 < (salarioAtual) <= 1500 and int(tempoServico) > 10:
     bonus = 500
     salarioFinal = (float(salarioAtual) ) + int(bonus)
     print(f'O seu salario final é {salarioFinal}')
-----------------------------------------------------------------
 
-40
+
+
 
 
 

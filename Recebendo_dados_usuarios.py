@@ -11,7 +11,7 @@ print('Seja bem-vindo(a) %s' % nome)
 print('Qual sua idade? ')
 idade = input()
 
-print("A %s tem %s anos" % (nome, idade))
+print("O %s tem %s anos" % (nome, idade))
 
 
 # Procesamento
