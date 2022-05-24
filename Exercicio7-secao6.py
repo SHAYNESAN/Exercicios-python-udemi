@@ -132,7 +132,53 @@ for n in numeros:
     print(n)
 
 ------------------------------------------------
+
+
+A = [1,2,3,4,5,6]
+A.append(1)
+A.append(0)
+A.append(5)
+A.append(-2)
+A.append(-5)
+A.append(7)
+
+soma = A[0]+A[1]+A[5]
+print(soma)
+A[4]= 100
+print(A)
+for n in A:
+    print(n)
+
+
+import math
+
+
+a = list(range(1,11))
+print(a)
+b = []
+for n in a:
+    n = (n ** 2)
+    b.append(n)
+print(b)
+
+pares = 0
+lista = list(range(1,11))
+for n in lista:
+    if n % 2 == 0:
+        pares = pares + 1
+        print(n)
+print(pares)
 '''
+lista = []
+while len(lista) <= 10:
+    valor = int(input("Digite um numero: "))
+    lista.append(valor)
+print(max(lista))
+print(min(lista))
 
 
+
+
+
+    
 
